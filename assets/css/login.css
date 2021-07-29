@@ -1,0 +1,56 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    /* 背景图片设置为和窗口一样大 */
+    height: 100%;
+    width: 100%;
+    background-image: url('/assets/images/login_bg.jpg');
+    background-size: cover;
+}
+.lAr{
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.lArimg{
+    width: 100%;
+    height: 60px;
+    /* background-image: url('/assets/images/login_title.png');
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: url('/assets/images/login_title.png') no-repeat center;
+}
+.regbox{
+    display: none;
+}
+.layui-form{
+    padding: 0 30px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+.links a{
+    font-size: 12px;
+}
+.layui-form-item{
+    position: relative;
+}
+.layui-icon{
+    position: absolute;
+    left: 10px;
+    top:10px;
+}
+.layui-input{
+    padding-left: 32px;
+}
