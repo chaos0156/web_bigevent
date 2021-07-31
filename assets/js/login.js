@@ -75,7 +75,7 @@ $(function () {
                 localStorage.setItem('token',res.token)
                 // console.log(res.token);
                 // 跳转到后台页面
-                // location.href = "./index.html"
+                location.href = "./index.html"
             }
 
         })
